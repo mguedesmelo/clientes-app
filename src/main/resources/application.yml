@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: ${DB_URL}
-    username: ${DB_USER}
-    password: ${DB_PASS}
+    url: jdbc:postgresql://db.xoxrtruyomxhaurbtrvy.supabase.co:5432/postgres?sslmode=require
+    username: postgres
+    password: 2nHUfX1O8Wo3DM4X
     hikari:
       maximum-pool-size: 2
 
